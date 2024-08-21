@@ -1,0 +1,532 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    height: 125px;
+    background: linear-gradient(
+        to bottom, 
+        rgba(71, 18, 107, 0.9),  
+        rgba(71, 18, 107, 0.3)   
+    );
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    padding: 0 20px; 
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+}
+
+nav .logo {
+    width: 120px;
+    height: auto;
+    margin-right: 600px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav a {
+    font-size: 20px;
+    text-transform: capitalize;
+    color: aliceblue;
+    text-decoration: none;
+    line-height: 50px;
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+    margin: 0 5px;
+    transition: 0.3s ease;
+    left: 10px;
+}
+
+nav .animation {
+    position: absolute;
+    height: 50px;
+    top: 37.5px;
+    z-index: 0;
+    background: white;
+    transition: all 0.5s ease 0s;
+    border-radius: 10px;
+}
+
+nav a:nth-child(2) { color: rgb(70, 24, 115); }
+nav:hover a:nth-child(2) { color: white; }
+nav a:hover { color: rgb(70, 24, 115); }
+nav a:nth-child(2):hover { color: rgb(70, 24, 115) !important; }
+
+nav a:nth-child(2) { width: 100px; }
+nav a:nth-child(3) { width: 100px; }
+nav a:nth-child(4) { width: 130px; }
+nav a:nth-child(5) { width: 110px; }
+
+nav a:nth-child(3):hover ~ .animation,
+nav a:nth-child(4):hover ~ .animation,
+nav a:nth-child(5):hover ~ .animation {
+    background-color: aliceblue;
+}
+
+nav .start-home, nav a:nth-child(2):hover ~ .animation {
+    width: 100px;
+    left: calc(100% - 1152px);
+    background-color: rgb(255, 255, 255);
+}
+
+nav a:nth-child(3):hover ~ .animation { left: calc(100% - 1040px);}
+nav a:nth-child(4):hover ~ .animation { left: calc(100% - 917px); }
+nav a:nth-child(5):hover ~ .animation { left: calc(100% - 789px); }
+
+h1, .typejs{
+    position: absolute;
+  color:  rgb(70, 24, 115);
+  display: flex;
+  justify-content: center;
+  bottom: 620px;
+  left: 1000px;
+  z-index: 3;
+  word-spacing: 0.5px;
+  font-size: 40px;
+
+}
+mark{
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: white;
+}
+.ketikanotomatis{
+    color: white;
+}
+
+
+.Mekleren1 {
+    width: 800px;
+    height: auto;
+    border-radius: 40px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.content-wrapper { 
+    position: absolute; 
+   
+}
+
+.overlaytext {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    word-spacing: 5px;
+    bottom: 105px;
+    left: 110px;
+    display: flex;
+    gap: 10px;
+}
+
+.sepan1 {
+    margin-left: 8px;
+    color: rgb(70, 24, 115);
+}
+
+.image-container1 { font-size: 40px; }
+
+.image-container2 {
+    color: white;
+    position: absolute;
+    bottom: 83px;
+    margin-left: 110px;
+}
+
+.image-container3 {
+    color: white;
+    position: absolute;
+    bottom: 63px;
+    margin-left: 110px;
+}
+
+.image-container4 {
+    color: white;
+    position: absolute;
+    bottom: 43px;
+    margin-left: 110px;
+}
+
+.image-container1, .image-container2, .image-container3, .image-container4 {
+    position: relative;
+    margin-bottom: -14px;
+    left: 8px;
+}
+
+.highlight {
+    align-self: flex-end;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    margin-left: 850px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.pagani-container {
+    position: relative; 
+    width: 100%;
+    margin-top: 50px;
+    z-index: 2;  
+    opacity: 1;
+    
+}
+
+.pagani1 {
+    display: block;
+    margin-top: 2vh;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 120px;
+    position: relative;  
+    z-index: 3;  
+   
+}
+
+
+.persegi1 {
+    position: absolute;
+    width: 501.2px;
+    height: 120px;
+    background-color: rgba(71, 18, 107);
+    border-radius: 0 0 20px 20px;
+    margin-left: 118px;
+    bottom: -82px;
+    z-index: 1; 
+}
+.overlaytext2{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    word-spacing: 2px;
+    left: 110px;
+    display: flex;
+   
+}
+
+.h4-2{
+   text-transform: capitalize;
+   margin-left: 18px;
+   margin-top: 8px;
+   font-size: 21px;
+   font-style: bold;
+}
+.h5-1{
+position: absolute;
+font-size: 18px;
+margin-top: 50px;
+left: 20px;
+font-style: italic;
+}
+.h5-2 {
+    position: absolute;
+    display: flex;
+    font-size: 17px;
+    margin-top: 50px;
+    left: 405px;
+    font-style: italic;
+    gap: 10px; 
+    white-space: nowrap ;
+}
+.amg-container {
+    position: relative; 
+    width: 100%;
+    margin-top: -260px;
+    z-index: 2;  
+    margin-left: 600px;
+    opacity: 2;
+  }
+.amgone {
+    display: block;
+    margin-top: 2vh;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 120px;
+    position: relative;  
+    z-index: 3;  
+   
+}
+
+
+.persegi2 {
+    position: absolute;
+    width: 501.2px;
+    height: 120px;
+    background-color: rgba(71, 18, 107);
+    border-radius: 0 0 20px 20px;
+    margin-left: 118px;
+    bottom: -82px;
+    z-index: 1; 
+}
+.overlaytext3{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    word-spacing: 2px;
+    left: 110px;
+    display: flex;
+   
+}
+
+.h4-3{
+   text-transform: capitalize;
+   margin-left: 18px;
+   margin-top: 8px;
+   font-size: 21px;
+   font-style: bold;
+}
+.h5-3{
+position: absolute;
+font-size: 18px;
+margin-top: 50px;
+left: 20px;
+font-style: italic;
+}
+.h5-4 {
+    position: absolute;
+    display: flex;
+    font-size: 17px;
+    margin-top: 50px;
+    left: 405px;
+    font-style: italic;
+    gap: 10px; 
+    white-space: nowrap ;
+}
+
+.bugatti-container {
+    position: relative; 
+    width: 100%;
+    margin-top: -260px;
+    z-index: 2;  
+    margin-left: 600px;
+    opacity: 1;
+}
+.bugatti {
+    display: block;
+    margin-top: 104vh;
+    max-width: 500px;
+    height: auto;
+    border-radius: 20px 20px 40px 40px;
+    margin-left: 120px;
+    position: relative;  
+    z-index: 3;  
+    margin-left: 77.5vh;
+   
+}
+
+
+.persegi3 {
+    position: absolute;
+    width: 501.2px;
+    height: 130px;
+    background-color: rgba(71, 18, 107);
+    border-radius: 0 0 20px 20px;
+    margin-left: 738px;
+    bottom: -82px;
+    z-index: 1; 
+}
+.overlaytext4{
+    position: absolute;
+    z-index: 1;
+    color: white;
+    word-spacing: 2px;
+    left: 730px;
+    display: flex;
+   
+}
+
+.h4-4{
+   text-transform: capitalize;
+   margin-left: 18px;
+   margin-top: 8px;
+   font-size: 21px;
+   font-style: bold;
+}
+.h5-5{
+position: absolute;
+font-size: 18px;
+margin-top: 50px;
+left: 20px;
+text-transform: capitalize;
+}
+.h5-6{
+    position: absolute;
+    display: flex;
+    font-size: 17px;
+    margin-top: 50px;
+    left: 405px;
+    font-style: italic;
+    gap: 10px; 
+    white-space: nowrap ;
+}
+
+.cars-market{
+    color: white;
+    position: absolute;
+    bottom: -300px;
+    left: 850px;
+}
+.garis{
+    color: blueviolet;
+    border: 1px solid blueviolet !important;
+    width: 1100px;
+    position: absolute;
+    bottom: -390px;
+    z-index: 2;
+    left: 380px ;
+
+}
+.persegi4{
+    position: absolute;
+    width: 375px;
+    height: 550px;
+    background-color: rgba(71, 18, 107);
+    z-index: 7;
+    bottom: -1100px;
+    left: 175px;
+    border-radius: 20px;
+}
+
+.jermanflag{
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    left: 40px;
+    bottom: 360px;
+    border-radius: 10px;
+}
+.mercy{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    bottom: 200px;
+    left: 10px;
+}
+.Maybach{
+    position: absolute;
+    width: 140px;
+    height: 100px;
+    bottom: 195px;
+    left: 110px;
+}
+.bmw{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    bottom: 195px;
+    left: 220px;
+}
+.brabus{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -1px;
+    left: -40px;
+}
+.poce{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    bottom: 40px;
+    left: 80px;
+}
+.audi{
+    position: absolute;
+    
+    width: 120px;
+    height: 80px;
+    bottom: 50px;
+    left: 240px;
+}
+.kotak1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.persegi6{
+    position: absolute;
+    width: 375px;
+    height: 550px;
+    background-color: rgba(71, 18, 107);
+    z-index: 7;
+    bottom: -1100px;
+    left: 775px;
+    border-radius: 20px;
+}
+
+.italyflag{
+    width: 300px;
+    height: 175px;
+    position: absolute;
+    left: 40px;
+    bottom: 360px;
+    border-radius: 10px;
+}
+.Ferrari{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    bottom: 200px;
+    left: 10px;
+}
+.Lamborghini    {
+    position: absolute;
+    width: 140px;
+    height: 120px;
+    bottom: 195px;
+    left: 110px;
+
+}
+.Pagani2{
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    bottom: 195px;
+    left: 220px;
+}
+.brabus{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: -1px;
+    left: -40px;
+}
+.poce{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    bottom: 40px;
+    left: 80px;
+}
+.audi{
+    position: absolute;
+    
+    width: 120px;
+    height: 80px;
+    bottom: 50px;
+    left: 240px;
+}
+
+.kotak{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}

@@ -1,0 +1,217 @@
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <title>LEARNK</title>
+                    <meta charset="utf-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <link rel="stylesheet" type="text/css" href="belajar1.css">  
+                    <link class="ikon" rel="icon" type="image/jpg" href="logoo.png">   
+                    <style>
+                        .intro-animation {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background-color: #000000;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              z-index: 9999;
+              animation: introFadeOut 2s ease-in-out forwards;
+            }
+            
+            .intro-text {
+                display: flex;
+              font-size: 5rem;
+              font-weight: bold;
+              color: (71, 18, 107);
+              text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+              animation: introText 1s ease-in-out forwards;
+              opacity: 0;
+              position: absolute;
+              margin-top: 300px;
+                
+            }
+            
+            @keyframes introText {
+              0% {
+                transform: translateY(-80px);
+                opacity: 0;
+              }
+              100% {
+                transform: translateY(0);
+                opacity: 1;
+              }
+            }
+            
+            @keyframes introFadeOut {
+              0% {
+                opacity: 1;
+              }
+              90% {
+                opacity: 1;
+              }
+              100% {
+                opacity: 0;
+                visibility: hidden;
+              }
+            }
+
+            .gallery-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(allcars2.png);
+    background-size: cover;
+    background-position: center;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.gallery-header h1 {
+    font-size: 30px; 
+    margin: 0;
+    position: absolute;
+    bottom: 1000px;
+    z-index: 999;
+    color: azure;
+    left: 890px;
+}
+
+                    </style>
+                </head>
+                <body>
+                   
+                    
+                    <div class="intro-animation">
+                        <h1 class="intro-text">Davin Autobahn</h1>
+                      </div>
+                        <nav>
+                        <img class="logo" src="logoo.png" alt="logo">
+                            <a href="#">HOME</a>
+                            <a href="page2.html">CARS</a>
+                            <a href="#">GALLERY</a>
+                            <a href="#">ABOUT</a>
+                            <div class="animation start-home"></div>
+                        </nav>
+                        <div class="gallery-header">
+                            <h1>HOME</h1>
+                        </div>
+                        <div class="jsketik">
+                            <h1 class="typejs"><mark>Davin Autobahn</mark>&nbsp;&nbsp;&nbsp;<span class="ketikanotomatis">The Best Dealer In The World</span></h1>
+                    </div>
+                    <div class="content-wrapper">
+                        <div class="image-container1">
+                    <img class="Mekleren1" src="Mekleren1.webp" alt="Mekleren1 image">
+                    <div class="overlaytext">
+                        <h4 class="h4-1">about</h4><h3>Davin<span class="sepan1">Autobahn</span> </h3></div>
+                    </div>
+                    <div class="image-container2">
+                        <h5>We pride ourselves on working with only
+                            the finest, most prestigious car brand in the World. 
+                            </h5>
+                    </div>
+                    <div class="image-container3">
+                        <h5>Our portfolio includes the likes of Bugatti, Ferrari, Lamborghini, Mercedes-Benz,Rolls Royce, McLaren and many more.
+                            </h5>
+                        </div>
+                    <div class="image-container4">
+                        <h5>With such an extensive range of luxury yehicles, we're confident that we can help you find the car of your dreams.</h5>
+                    </div>
+                    <div class="highlight">
+                <h2>highlight stock</h2>
+              
+
+            </div>
+            <div class="pagani-container">
+                <img class="pagani1" src="paganihuayracb.webp" alt="paganihuayracb">
+                <div class="persegi1"></div>
+                <div class="overlaytext2">
+                    <h4 class="h4-2">pagani huayra carbon edition</h4>
+                    <h5 class="h5-1">3.105.000 USD</h5>
+                    <h5 class="h5-2">2023 | 0 Km</h5>
+                </div>
+            </div>
+
+            <div class="amg-container">
+                <img class="amgone" src="amgone.webp" alt="amgone">
+                <div class="persegi2"></div>
+                <div class="overlaytext3">
+                    <h4 class="h4-3">Mercedes-Benz Amg One</h4>
+                    <h5 class="h5-3"> 4.873.027</h5>
+                    <h5 class="h5-4">2012 | 0 Km</h5>
+                </div>
+            </div>
+                    </div>
+
+                    <div class="bugatti-container">
+                        <img class="bugatti" src="bugattipursport.webp" alt="bugatti">
+                        <div class="persegi3"></div>
+                        <div class="overlaytext4">
+                            <h4 class="h4-4">Bugatti Chiron Pur Sport</h4>
+                            <h5 class="h5-5"> Ask for price</h5>
+                            <h5 class="h5-6">2013 | 0 Km</h5>
+                        </div>
+                    </div>
+                            </div>
+
+                            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                            <script>
+                                var typed = new Typed(".ketikanotomatis", {
+                                    strings: ["Break The Limit","Make Your Dream To Reality"],
+                                    typeSpeed: 150,
+                                    backSpeed: 150,
+                                    loop: true
+                                })
+                            </script>
+                        
+                       <h2 class="cars-market">
+                        CARS MARKET
+                       </h2>     
+                        <hr class="garis">
+                        <div class="kotak"></div>
+                       <div class="persegi4">
+                       <div class="isipersegi4">
+                        <img class="jermanflag" src="jermanflag.webp" alt="jermanflag">
+                        <img class="mercy" src="mercy-removebg-preview.png" alt="mercy">
+                        <img class="Maybach" src="maybach-removebg-preview.png" alt="maybach">
+                        <img class="bmw" src="bmw.png" alt="bmw">
+                        <img class="brabus" src="brabus.png" alt="brabus">
+                        <img class="poce" src="poce.png" alt="poce">
+                        <img class="audi" src="download-removebg-preview (7).png" alt="audi">
+                        
+                    </div>
+                       </div>
+
+                       <div class="kotak1"></div>
+                       <div class="persegi5">
+                       <div class="isipersegi5">
+                        <img class="italyflag" src="italyflag.png" alt="italyflag">
+                        <img class="Ferrari" src="ferarri.png" alt="ferarri">
+                        <img class="Lamborghini" src="lambo.png" alt="lamborghini">
+                        <img class="Pagani2" src="pagani.png" alt="pagani">
+                    
+                        
+                    </div>
+                       </div>
+
+                       <div class="kotak2"></div>
+                       <div class="persegi6">
+                       <div class="isipersegi6">
+                        <img class="italyflag" src="italyflag.png" alt="italyflag">
+                        <img class="Ferrari" src="ferarri.png" alt="ferarri">
+                        <img class="Lamborghini" src="lambo.png" alt="lamborghini">
+                        <img class="Pagani2" src="pagani.png" alt="pagani">
+                    
+                        
+                    </div>
+                       </div>
+                     
+                </body>
+            </html>
+
+        
+         
